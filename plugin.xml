@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Gutscheine per Link in den Warenkorb</label>
+    <label lang="en">Coupons by link in the shopping cart</label>
+
+    <version>2.0.5</version>
+    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <license>proprietary</license>
+    <link>https://www.netzhirsch.de</link>
+    <author>Netzhirsch GbR</author>
+    <compatibility minVersion="5.2.0" />
+    
+    <description lang="de">Mit Hilfe dieses Plugins können Sie einen Gutschein einfach per Link dem Warenkorb hinzufügen. 
+    Verschicken Sie Ihren Kunden also einfach einen Link per E-Mail und Ihr Kunde braucht nichts weiter zu tun, 
+    als diesen Link anzuklicken.</description>
+    
+    <description lang="en">With the help of this plugin you can add a coupon simply by link to the shopping cart.
+     Just send a link to your customer via e-mail and your customer does not need to do anything else click on this link.</description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
+        <changes lang="en">Initial Release of the plugin.</changes>
+    </changelog>
+
+    <changelog version="1.0.1">
+        <changes lang="de">Diverse kleinere Anpassungen. Vereinheitlichte Icons erstellt.</changes>
+        <changes lang="en">Various minor adjustments. Unified icons created.</changes>
+    </changelog>
+
+    <changelog version="1.1.0">
+        <changes lang="de">Kompatibilität zu Shopware 5.5.0 hergestellt: ionCube-Verschlüsselung wurde entfernt.</changes>
+        <changes lang="en">Compatibility with Shopware 5.5.0 made: ionCube encryption has been removed.</changes>
+    </changelog>
+
+    <changelog version="2.0.0">
+        <changes lang="de">Erweiterung um einen Parameter, um eine Weiterleitung einzufügen. Damit kann das Einlösen des Gutscheins auch auf Unterseiten implementiert werden. Der entsprechende Link dafür lautet: https://www.url-zu-ihrem-shop.de/gutschein/ihr-gutscheincode?r=/pfad-zur-Weiterleitung/</changes>
+        <changes lang="en">Extension by one parameter to insert a forwarding. Thus the redemption of the voucher can also be implemented on subpages. The link for this is: https://www.url-to-your-shop.de/gutschein/ihr-gutscheincode?r=/path-to-forwarding/</changes>
+    </changelog>
+
+    <changelog version="2.0.1">
+        <changes lang="de">Sicherheitsabfrage eingefügt, um zu verhindern, dass sich verschiedene Gutschein-Plugins über bestimmte Events in die Quere kommen.</changes>
+        <changes lang="en">Added a security question to prevent various coupon plugins from getting in the way of certain events.</changes>
+    </changelog>
+
+    <changelog version="2.0.2">
+        <changes lang="de">Beim Einlösen eines Gutscheins können optional die Infos eines Gutscheins ausgegeben werden (Wert, Mindestbestellwert, Beschränkung auf einen Hersteller).</changes>
+        <changes lang="en">When redeeming a voucher, the information of a voucher can optionally be issued (value, minimum order value, restriction to one manufacturer).</changes>
+    </changelog>
+
+    <changelog version="2.0.3">
+        <changes lang="de">Die Ausgabe der Informationen von Gutscheinen funktioniert nun auch bei individuellen Gutschein-Codes.</changes>
+        <changes lang="en">The issuance of coupon information now works on individual coupon codes as well.</changes>
+    </changelog>
+
+    <changelog version="2.0.4">
+        <changes lang="de">Performance-Steigerung beim Einlösen von Gutscheinen.</changes>
+        <changes lang="en">Performance increase when redeeming vouchers.</changes>
+    </changelog>
+
+    <changelog version="2.0.5">
+        <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
+        <changes>Compatibility with Shopware 5.7 made.</changes>
+    </changelog>
+</plugin>

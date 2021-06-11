@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="boolean">
+            <name>nnwebVoucherLink_voucherInfo</name>
+            <label lang="de">Gutschein-Informationen anzeigen</label>
+            <label lang="en">Show voucher informations</label>
+            <description lang="de">Beim Einlösen eines Gutscheins werden außerdem die Infos eines Gutscheins ausgegeben (Wert, Mindestbestellwert, Beschränkung auf einen Hersteller).</description>
+            <description lang="en">When redeeming a voucher, the information of a voucher is also issued (value, minimum order value, restriction to a manufacturer).</description>
+        </element>
+    </elements>
+</config>
