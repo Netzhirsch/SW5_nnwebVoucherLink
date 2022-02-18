@@ -3,11 +3,11 @@
     <label lang="de">Gutscheine per Link in den Warenkorb</label>
     <label lang="en">Coupons by link in the shopping cart</label>
 
-    <version>2.0.5</version>
-    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <version>2.1.0</version>
+    <copyright>Copyright (c) 2022, Netzhirsch GmbH</copyright>
     <license>proprietary</license>
     <link>https://www.netzhirsch.de</link>
-    <author>Netzhirsch GbR</author>
+    <author>Netzhirsch GmbH</author>
     <compatibility minVersion="5.2.0" />
     
     <description lang="de">Mit Hilfe dieses Plugins können Sie einen Gutschein einfach per Link dem Warenkorb hinzufügen. 
@@ -60,5 +60,10 @@
     <changelog version="2.0.5">
         <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
         <changes>Compatibility with Shopware 5.7 made.</changes>
+    </changelog>
+
+    <changelog version="2.1.0">
+        <changes lang="de">Verbesserung der Zusammenarbeit mit dem Cache. In bestimmten Konfigurationen wurde der Gutschein im Warenkorb trotz vorherigem Speichern nicht eingelöst.</changes>
+        <changes>Improved cooperation with the cache. In certain configurations, the voucher was not redeemed in the shopping cart despite having saved it beforehand.</changes>
     </changelog>
 </plugin>
