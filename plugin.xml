@@ -3,7 +3,7 @@
     <label lang="de">Gutscheine per Link in den Warenkorb</label>
     <label lang="en">Coupons by link in the shopping cart</label>
 
-    <version>2.1.0</version>
+    <version>2.1.1</version>
     <copyright>Copyright (c) 2022, Netzhirsch GmbH</copyright>
     <license>proprietary</license>
     <link>https://www.netzhirsch.de</link>
@@ -65,5 +65,10 @@
     <changelog version="2.1.0">
         <changes lang="de">Verbesserung der Zusammenarbeit mit dem Cache. In bestimmten Konfigurationen wurde der Gutschein im Warenkorb trotz vorherigem Speichern nicht eingelöst.</changes>
         <changes>Improved cooperation with the cache. In certain configurations, the voucher was not redeemed in the shopping cart despite having saved it beforehand.</changes>
+    </changelog>
+
+    <changelog version="2.1.1">
+        <changes lang="de">Kompatibilität zu anderen Plugins verbessert.</changes>
+        <changes>Improved compatibility with other plugins.</changes>
     </changelog>
 </plugin>
