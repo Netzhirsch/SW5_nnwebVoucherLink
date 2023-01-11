@@ -22,6 +22,7 @@ class Shopware_Controllers_Frontend_Gutschein extends Enlight_Controller_Action 
     	
     	if (!empty($_GET["r"])) {
     		header("Location: " . $_GET["r"]);
+			exit();
     	} else {
 			$this->forward('index', 'index');
 		}
